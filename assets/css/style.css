@@ -599,6 +599,97 @@ a.link--white {
 /*---------------------- Hero area end ----------------------*/
 
 
+/*---------------------- Payments area start ----------------------*/
+
+.hero-shape-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 56.6%;
+    text-align: left;
+    height: 735px;
+}
+
+.hero-shape-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.discount-badge {
+    position: absolute;
+    top: -33px;
+    right: -61px;
+    z-index: 1;
+    max-width: 123px;
+}
+
+.pricing--card--big .pricing__card__bottom a {
+    font-size: 21px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+}
+
+.pricing--card--big.pricing__single__card hr {
+    margin: 15px auto;
+    max-width: 178px;
+}
+
+.pricing--card--big .pricing__card__title p {
+    font-size: 24px;
+}
+
+.pricing--card--big .pricing__card__title h5 {
+    font-size: 38px;
+    color: #D6D6D6;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.3;
+    padding: 0 28px;
+}
+
+.pricing__card__price h3 {
+    font-size: 45px;
+    color: #D6D6D6;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-top: 6px;
+}
+
+.pricing--card--big .validity__text {
+    font-size: 20px;
+}
+
+.discount--text {
+    font-size: 13px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 2px;
+}
+
+.pricing__single__card.pricing--card--big {
+    background: #d6d6d6;
+}
+
+.pricing__single__card.card-red.pricing--card--big {
+    background: #F5264B;
+}
+
+.card-red .pricing__card__price span {
+    color: #f5264b;
+}
+
+.pricing--card--big.card-red .pricing__card__title h5 {
+    color: #f5264b;
+}
+
+/*---------------------- Payments area end ----------------------*/
+
+
 /*---------------------- FAQ area start ----------------------*/
 .faq__thumb__wrapper {
     text-align: center;
