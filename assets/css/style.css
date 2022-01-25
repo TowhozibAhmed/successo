@@ -133,7 +133,16 @@ a:hover {
 }
 
 .menu-close:hover {
-    color: #2AB66A;
+    color: #F5264B;
+}
+
+.main-menu ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq__area {
+    overflow: hidden;
 }
 
 .offcanvas-area {
@@ -142,7 +151,7 @@ a:hover {
     height: 100%;
     width: 300px;
     background: #F5FCFF;
-    z-index: 6;
+    z-index: 7;
     padding-top: 35px;
     -webkit-transition: .4s;
     transition: .4s;
@@ -170,13 +179,15 @@ a:hover {
 .offcanvas-area .main-menu ul li a {
     font-size: 18px;
     color: #3D424E;
-    margin-left: 30px;
-    margin-bottom: 18px;
+    margin-left: 25px;
+    margin-bottom: 0;
     display: block;
+    text-decoration: none;
+    transition: .3s;
 }
 
 .offcanvas-area .main-menu ul li a:hover, .offcanvas-area .main-menu ul li a[aria-expanded="true"] {
-    color: #2AB66A;
+    color: #F5264B;
 }
 
 .offcanvas-menu .main-menu ul {
@@ -195,7 +206,7 @@ a:hover {
     visibility: hidden;
     -webkit-transition: .4s;
     transition: .4s;
-    z-index: 5;
+    z-index: 6;
 }
 
 .offcanvas-overlay.active {
@@ -204,14 +215,20 @@ a:hover {
 }
 
 .menu-open {
-    font-size: 27px;
-    color: #2AB66A;
+    font-size: 21px;
+    color: #fff;
     display: none;
     cursor: pointer;
     position: relative;
     top: 2px;
     margin-left: 20px;
     margin-right: 8px;
+    background: #F5264B;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
 }
 
 .offcanvas-menu .common-btn {
@@ -298,6 +315,7 @@ a.link--white {
     padding-top: 190px;
     position: relative;
     padding-bottom: 190px;
+    overflow: hidden;
 }
 
 
@@ -606,7 +624,7 @@ a.link--white {
     top: 0;
     left: 0;
     width: 100%;
-    max-width: 56.6%;
+    max-width: 57%;
     text-align: left;
     height: 735px;
 }
@@ -854,8 +872,8 @@ a.link--white {
     font-size: 16px;
     font-weight: 500;
     color: #707070;
-    padding-left: 27px;
-    padding-right: 27px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
     justify-content: center;
 }
